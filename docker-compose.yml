@@ -6,6 +6,7 @@ services:
     image: wordpress:latest
     restart: always
     volumes:
+      - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
       - ./gesad-theme:/var/www/html/wp-content/themes/gesad-theme
       # - ./gesad-plugins:/var/www/html/wp-content/plugins/gesad-plugins
     environment:

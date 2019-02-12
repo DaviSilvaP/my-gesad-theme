@@ -1,0 +1,22 @@
+/*
+ Theme Name: gesad-theme
+ Author: Marcos
+ Version: 1.0
+*/
+
+/* 3rd party packages */
+
+/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Correct the line height in all browsers.
+ * 3. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+
+/* Document
+   ========================================================================== */
+
+   /* body { min-width: 980px; text-align: center; } */
+   #wrapper { width: 980px; margin: 0 auto; }

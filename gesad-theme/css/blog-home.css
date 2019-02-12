@@ -1,0 +1,23 @@
+/*!
+ * Start Bootstrap - Blog Home (https://startbootstrap.com/template-overviews/blog-home)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-home/blob/master/LICENSE)
+ */
+
+
+ article .list_img{
+  margin-top: 1.75em;
+  margin-bottom: 0.25em;
+}
+article:nth-child(odd) .list_img{ 
+  float:right;
+  max-width: 100%;
+  max-height: 100%;
+  margin-left: 0em;
+}
+article:nth-child(even) .list_img{
+   float:left;
+   max-width: 100%;
+   max-height: 100%;
+   margin-right: 1em;
+}

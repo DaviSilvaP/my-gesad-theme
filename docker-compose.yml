@@ -3,12 +3,13 @@ services:
   wordpress:
     depends_on:
       - db
-    image: wordpress:latest
+    image: marcosdavy/mywordpress
+    build:
+      context: ./
+      dockerfile: Dockerfile
     restart: always
     volumes:
       - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
-      - ./gesad-theme:/var/www/html/wp-content/themes/gesad-theme
-      # - ./gesad-plugins:/var/www/html/wp-content/plugins/gesad-plugins
     environment:
       WORDPRESS_DB_HOST: db:3306
       WORDPRESS_DB_PASSWORD: root

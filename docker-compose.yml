@@ -10,6 +10,7 @@ services:
     restart: always
     volumes:
       - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
+      - ./gesad-theme:/usr/src/wordpress/wp-content/themes/gesad-theme
     environment:
       WORDPRESS_DB_HOST: db:3306
       WORDPRESS_DB_PASSWORD: root

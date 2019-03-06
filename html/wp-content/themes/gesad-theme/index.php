@@ -51,8 +51,7 @@
             <div class="card">
                 <h5 class="card-header">Twitter Feed GESAD</h5>
                 <div class="card-body">
-                    <a class="twitter-timeline" data-height="500"
-                        href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw">Tweets by TwitterDev</a>
+                    <a class="twitter-timeline" href="https://twitter.com/GESAD6?ref_src=twsrc%5Etfw">Tweets by GESAD</a> 
                     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
             </div>

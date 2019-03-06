@@ -11,7 +11,7 @@
     <header class="site-header">
         <nav class="global-header hidden-print">
             <div class="container">
-                <a href="#" target="_blank" class="navbar-brand"><img class="logo"
+                <a href="<?php echo home_url(); ?>" class="navbar-brand"><img class="logo"
                         src="<?php echo get_theme_file_uri('/images/aplicacoes-primaria-sem-tagline.png')?>" width="110"
                         style="border-radius: 24px" /></a>
 
@@ -22,7 +22,7 @@
         <nav class="local-header">
             <div class="container container-relative">
                 <h2 id="subsitetitle">
-                    <a href="<?php get_home_url( ) ?>">
+                    <a href="<?php echo home_url(); ?>">
                         <i class="material-icons"></i>
                         Grupo de Engenharia de Software Distribuído
                     </a>

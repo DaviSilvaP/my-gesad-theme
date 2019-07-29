@@ -1,0 +1,9 @@
+Página Inicial - Home
+Sobre - About
+Pesquisadores - Researchers
+Publicações - Published
+Linhas de Pesquisa - Researches' Lines
+Eventos - Events
+Notícias - News
+
+ScriptLattes ou Team(Team Members) - Plugin

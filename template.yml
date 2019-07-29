@@ -18,7 +18,7 @@ services:
       WORDPRESS_TABLE_PREFIX: "wp_"
       WORDPRESS_DEBUG: ${WORDPRESS_DEBUG}
     ports:
-      - 80:80
+      - 8070:80
     networks:
       - back
   mysqldb:

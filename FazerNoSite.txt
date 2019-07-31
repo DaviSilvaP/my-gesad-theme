@@ -1,9 +1,27 @@
 Página Inicial - Home
 Sobre - About
 Pesquisadores - Researchers
-Publicações - Published
-Linhas de Pesquisa - Researches' Lines
+Publicações - Publications
+Linhas de Pesquisa - Research Lines
 Eventos - Events
 Notícias - News
+Projetos - Projects
 
-ScriptLattes ou Team(Team Members) - Plugin
+Processo a seguir:
+
+- senha: wordpress-root
+
+Atualizar Banco:
+
+- container_id: sudo docker ps -aqf "name=mysql"
+- sudo docker exec -ti container_id bash
+- dump: mysqldump -u root wordpress-database -pwordpress-root > wp.sql
+- cp /var/lib/docker/volumes/my-gesad-theme_db_data/_data/wp.sql path_project
+
+Backup Banco:
+
+- container_id: sudo docker ps -aqf "name=mysql"
+- sudo docker exec -ti container_id bash
+- access in container: /var/lib/mysql
+- cp path_project/wp.sql /var/lib/docker/volumes/my-gesad-theme_db_data/_data/.
+- backup: mysql -u root wordpress-database -pwordpress-root < wp.sql

@@ -1,5 +1,2 @@
 # Exclude docker-compose.yml since it should be build after setting the enviroment files
-docker-compose.yml
-.wp-app/wp-content
-themes/
-plugins/
+
